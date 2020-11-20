@@ -131,7 +131,7 @@
 
 - (void)setStrokeColor:(UIColor*)strokeColor {
     _strokeColor = strokeColor;
-    _indefiniteAnimatedLayer.strokeColor = strokeColor.CGColor;
+    _indefiniteAnimatedLayer.strokeColor = UIColor.whiteColor.CGColor;
 }
 
 - (void)setStrokeThickness:(CGFloat)strokeThickness {
